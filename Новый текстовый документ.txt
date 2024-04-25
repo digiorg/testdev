@@ -1,0 +1,37 @@
+Первоначальная настройка:
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+Создание локального репозитория:
+$ git init
+
+Клонирование репозитория с платформы:
+$ git clone https://github.com/адресреп
+
+ОСНОВНЫЕ:
+
+1. git checkout -b name branch 
+создаёт ветку + переходит на нее
+
+2. git add *
+начинает отслеживать файл
+
+3. git commit -m " "
+комментируем изменения в ветке
+
+4. git push origin name branch 
+отправляем изменения в удаленный репозиторий 
+
+ВСПОМОГАТЕЛЬНЫЕ:
+
+1. git status 
+можно проследить какие файлы мы изменили 
+
+2. git pull origin name branch 
+загрузить изменения из репы
+
+3. git log -p name branch 
+просмотр изменений в файле
+
+4. git stash и git stash pop
+вырезает и восстанавливает изменения в ветке
